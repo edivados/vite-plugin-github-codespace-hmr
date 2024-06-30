@@ -1,0 +1,36 @@
+{
+  "name": "@edivados/vite-plugin-github-codespace-hmr",
+  "version": "0.1.0",
+  "homepage": "https://github.com/edivados/vite-plugin-github-codespace-hmr",
+  "license": "MIT",
+  "author": {
+    "name": "edivados",
+    "url": "https://github.com/edivados"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edivados/vite-plugin-github-codespace-hmr.git"
+  },
+  "keywords": [
+    "vite",
+    "vite plugin",
+    "vitejs",
+    "vitejs plugin",
+    "vite-plugin",
+    "hmr",
+    "codespace",
+    "codespaces"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "peerDependencies": {
+    "vite": "^4 || ^5 || ^6"
+  },
+  "dependencies": {
+    "open": "^10.1.0"
+  }
+}
